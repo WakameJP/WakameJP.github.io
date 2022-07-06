@@ -1,0 +1,13 @@
+body {
+    background-color: gainsboro;
+}
+
+.container {
+    text-align: center;
+}
+
+.container h1 {
+    font-family: 'Montserrat', sans-serif;
+    margin: 10vh;
+    font-size: 3em;
+}
