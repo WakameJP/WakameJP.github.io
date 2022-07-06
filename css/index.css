@@ -1,0 +1,62 @@
+body {
+    background-color: #eaf4fc;
+}
+
+.container {
+    text-align: center;
+}
+
+/* CARD */
+
+.main_card {
+    box-shadow:  rgba(0, 0, 0, 0.1) 0px 0px 30px;
+    border-radius: 20px;
+    background-color: #eaedf7;
+    margin-bottom: 10vh;
+}
+
+.sub_card {
+    box-shadow:  rgba(0, 0, 0, 0.1) 0px 0px 30px;
+    border-radius: 20px;
+    background-color: #ebf6f7;
+    margin-bottom: 10vh;
+}
+
+.links a{
+    background-color: #ebf6f7;
+    border-radius: 20px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    margin: 0 20px;
+    font-size: 40px;
+    text-decoration: none;
+    color: #203744;  
+}
+
+/* END OF CARD */
+
+/* FONT SIZE EDIT */
+
+.container h1 {
+    font-family: 'Alfa Slab One', cursive;
+    /* font-family: 'Montserrat', sans-serif; */
+    margin: 10vh;
+    font-size: 3em;
+}
+
+.container h2 {
+    font-family: 'Montserrat', sans-serif;
+    margin: 5vh;
+    font-size: 2em;
+}
+
+/* END OF FONT SIZE EDIT */
+
+/* ICON JUMP */
+
+.links a:hover{
+    transform: translate(0,-5px);
+  }
+/* END OF ICON JUMP */
