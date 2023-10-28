@@ -1,10 +1,22 @@
 <html>
     <head>
         <title>マイメロママ正論ボタン</title>
-        <script src="audio.js"></script>
+        <script src="/lib/jquery.js"></script>
+        <script src="/lib/audio.js"></script>
+        <style>@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700&display=swap');</style>
+        <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <h1>マイメロママ正論ボタン</h1>
-        <button onclick="play('sd01')">いるのよねぇ</button>
+        <h1 class="title">マイメロママ正論ボタン</h1>
+        <div class="background">
+            <div class="soundButton">
+                
+            </div>    
+            <div class="soundLoadbackground">
+                <h3 class="soundLoadtitle">音声ファイル読込</h3>
+                <h3 class="state">状態：読込待機中...</h3>
+                <button class="soundLoadbutton" onclick="loadSound()">読込開始</button>
+            </div>
+        </div>    
     </body>
 </html>
